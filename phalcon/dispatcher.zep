@@ -788,7 +788,7 @@ abstract class Dispatcher implements DispatcherInterface, InjectionAwareInterfac
 	 *
 	 * @throws \Phalcon\Exception
 	 */
-	public function forward(var forward) -> void
+	public function forward(var forward)
 	{
 		var namespaceName, controllerName, params, actionName, taskName;
 
